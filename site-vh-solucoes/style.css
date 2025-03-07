@@ -1,0 +1,97 @@
+body {
+    font-family: Arial;
+    margin: 10vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+    background: linear-gradient(to right, #890c58, #350670);
+    padding: 40px;
+    height: 160px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Aptos Mono', monospace;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  .navbar img {
+    margin-right: 20px;
+  }
+  
+  .navbar p {
+    color: white;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    font-family: 'Aptos Mono', monospace;;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    color: #F680DD;
+  }
+  
+  .content {
+    padding: 20px;
+    flex: 1;
+  }
+  .columns {
+    display: flex;
+    gap: 20px;
+  }
+  
+
+  
+  hr {
+    border: 1px solid #333;
+  }
+  footer {
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  footer a:hover {
+   color: #F680DD;
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
